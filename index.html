@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My CV</title>
+    <!-- Styling Section -->
+    <style>
+      html, body {
+        font-family: Arial, sans-serif;
+        color: black;
+        margin: 0;
+        height: 100%;
+        display: block;
+      }
+
+      header {
+        background-color: white;
+        padding: 10px;
+      }
+      
+      .heading {
+        text-align: center;
+      }
+
+      .wrapper {
+        background-color: whitesmoke;
+        display: inline-flex;
+        height: auto;
+      }
+      
+      .sidebar {
+        width: 25%;
+      }
+
+      .menu {
+        padding: 15px;
+      }
+
+      .menu ul{
+        padding-left: 0;
+      }
+
+      .content-info {
+        width: 70%;
+        padding: 2%;
+        background-color: #e6e4e4;
+      }
+
+      .menu-title {
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      .menu-list {
+        list-style-type: none;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .links {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      a.links:hover {
+        color: gray;
+      }
+
+      .external-links {
+        color: limegreen;
+      }
+
+      .profile-img {
+        border-radius: 10%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10%;
+      }
+
+      #interests-section, #skills-section{
+        float: left;
+        width: 50%;
+      }
+
+      #experience-section {
+        clear: both;
+      }
+
+      .set-width {
+        width: 115px;
+        display: inline-table;
+      }
+
+      .ul-list {
+        margin: 0;
+        list-style: none;
+        line-height: 1.4;
+        margin-bottom: 15px;
+      }
+
+      .ul-list li:first-child {
+        font-weight: 600;
+      }
+
+      /* Helper Classes */
+      .padding {
+        padding: 10px;
+      }
+
+      .inline-flex {
+        display: inline-flex;
+      }
+      
+      .footer {
+        clear: both;
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Title -->
+    <header class="header">
+      <h1 class="heading">Anele Shamase</h1>
+      <h3 class="heading">Aspiring Software Engineer</h3>
+    </header>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Profile Image -->
+        <img src="./images/anele profile.jpg" alt="Profile Image" style=" width: 50%; margin-left: 25%; margin-right: 25%; margin-top: 10%;" >
+        <!-- Menu Section -->
+        <div class="menu">
+          <ul>
+            <li class="menu-list"><a href="#about-section" class="links">About</a></li>
+            <li class="menu-list"><a href="#interests-section" class="links">Interests</a></li>
+            <li class="menu-list"><a href="#skills-section" class="links">Skills</a></li>
+            <li class="menu-list"><a href="#experience-section" class="links">Experience</a></li>
+            <li class="menu-list"><a href="#education-section" class="links">Education</a></li>
+            <li class="menu-list"><a href="#projects-section" class="links">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Content Info -->
+      <div class="content-info">
+        <section id="about-section">
+          <h2>About Me:</h2>
+          <p>
+            I'm passionate about software engineering and I am a problem solver. I am eager to prove my value and talent at an emerging
+            company or larger corporate. Motivated to advance and expand my skill set through targeted mentorship and challenging projects.
+          </p>
+        </section>
+        <section id="interests-section">
+          <h3>Interests:</h3>
+          <ul>
+            <li>Cycling</li>
+            <li>Reading Book</li>
+            <li>Hiking</li>
+          </ul>
+        </section>
+
+        <!-- Skiils Section -->
+        <section id="skills-section">
+          <h3>Skills:</h3>
+          <img src="./images/html.png" alt="HTML Icon" class="padding" width="100">
+          <img src="./images/css.png" alt="CSS Icon" class="padding" width="100">
+          <img src="./images/python.png" alt="Python Icon" class="padding" width="100">
+          <img src="./images/java.png" alt="Java Icon" class="padding" width="100">
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience-section">
+          <h3>Experience:</h3>
+          <div class="inline-flex">
+            <span class="set-width">2021 - Present</span>
+            <ul class="ul-list">
+              <li>Technician at The University of Johannesburg</li>
+              <li>Ensure all personnel adhere to laboratory rules and regulation.</li>
+              <li>Installation and commissioning of research equipment.</li>
+              <li>Manage, maintain, and repair the equipment to ensure effective and efficient operations.</li>
+              <li>Source quotation from different suppliers, purchase the equipment, ensure correct item are purchased.</li>
+            </ul>
+          </div>
+          <div class="inline-flex">
+            <span class="set-width">2018 - 2021</span>
+            <ul class="ul-list">
+              <li>Technical Assistant at The University of Johannesburg</li>
+              <li>General house keeping.</li>
+              <li>Support for student practical.</li>
+              <li>Sample preparations - sample crushing, labelling.</li>
+              <li>Enforcement of all Health and Safety rules.</li>
+            </ul>
+          </div>
+        </section>
+        <section id="education-section">
+          <h3>Education:</h3>
+          <div >
+            <span class="set-width">2022</span>
+            <ul class="ul-list">
+              <li>Software Engineering Bootcamp</li>
+              <li>Java, Python, Github.</li>
+            </ul>
+          </div>
+          <div>
+            <span class="set-width">2021 - 2022</span>
+            <ul class="ul-list">
+              <li>CodeSpace, Bootcamp in Software Development</li>
+              <li>HTML, CSS.</li>
+            </ul>
+          </div>
+          <div>
+            <span class="set-width">2015 - 2019</span>
+            <ul class="ul-list">
+              <li>University of Johannesburg</li>
+              <li>Minerals Processing, Pyrometallurgy & Hydrometallurgy.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Project Section -->
+        <section id="projects-section">
+          <h3>My Projects:</h3>
+          <ul>
+            <li><a href="https://github.com/AneleShama/Final_Task_Manager" target="_blank">Task Manager</a> <br>This program help it to manage tasks assigned to each member of the team.</li><br>
+            <li><a href="https://github.com/AneleShama/Poised-Capstone-Project-1" target="_blank">Poised Project</a> <br>This project is a project management system for a small structural engineering firm called “Poised”. Poised does the engineering needed to ensure the structural integrity of various buildings..</li>
+
+          </ul>
+        </section>
+      </div>
+      
+    </div>
+    <!-- Social Info -->
+    <footer class="footer">
+        <h3 id="social-media">Get In Touch</h3>
+        <a href="tel:+27718204238" target="_blank" class="padding"><img src="./images/phone-icon.png" alt="Phone Icon" width="40"></a>
+        <a href="mailto:aneleshama@gmail.com" target="_blank" class="padding"><img src="./images/email-icon.png" alt="Email Icon" width="40"></a>
+        <a href="https://www.linkedin.com/in/anele-shamase-133a73228/" target="_blank" class="padding"><img src="./images/linkedin-icon.png" alt="LinkedIn Icon" width="40"></a>
+      </footer>
+    </footer>
+  </body>
+</html>
